@@ -60,7 +60,6 @@ def pattern_6(n):
         print(s)
 
 
-
 def main():
     pattern_one(5)
     print()
