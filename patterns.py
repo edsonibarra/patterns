@@ -42,6 +42,15 @@ def pattern_four(n):
         print(s)
 
 
+def pattern_5(n):
+    for i in range(n):
+        count = n - i
+        s = ''
+        for j in range(1, count + 1):
+            s += '*'
+        print(s)
+
+
 def main():
     pattern_one(5)
     print()
@@ -52,4 +61,8 @@ def main():
     pattern_three(5)
     print()
     pattern_four(5)
+    print()
+    pattern_5(5)
+
+
 main()
